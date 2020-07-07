@@ -11,7 +11,7 @@ using Xunit;
 
 namespace Boltinc.Tests
 {
-    public class SearchHandlerTest
+    public class AppTest
     {
         [Fact]
         public async Task GoogleSearchTest()

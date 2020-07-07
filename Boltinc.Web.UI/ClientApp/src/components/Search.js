@@ -34,7 +34,7 @@ export class Search extends Component {
   render() {
     return (
         <div>
-          <h1>Search repositories</h1>
+          <h1>Search engine</h1>
           <div>
           <form onSubmit={this.handleSubmit} className="form-inline">
             <div className="form-group">

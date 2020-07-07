@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Search\Parrser\**" />
+    <EmbeddedResource Remove="Search\Parrser\**" />
+    <None Remove="Search\Parrser\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Abstaraction\" />
   </ItemGroup>
 
